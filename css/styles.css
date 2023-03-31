@@ -252,3 +252,29 @@ aside li {
     color: var(--color-primary);
     margin: 2px;
 }
+
+div.section-column ol li h3{
+    float: left;
+    margin: 1px 0px 0px -8px;
+    padding: 0 8px;
+    position: relative; 
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+div.section-column ol {
+display: flex;
+flex-direction: column;
+}
+div.section-column ol li {
+flex: 1 1 auto;
+}
+div.section-column ol {
+flex-wrap: wrap;
+}
+div.section-column ol li h3 {
+display: inline-block;
+}
+div.section-column ol li p {
+display: contents;
+}
