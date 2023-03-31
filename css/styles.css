@@ -278,3 +278,27 @@ display: inline-block;
 div.section-column ol li p {
 display: contents;
 }
+
+/*Media queries*/
+
+@media only screen and (max-width: 1000px) {
+    #container {
+        width: 100%;
+        margin: 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .section-column {
+        flex-basis: 100%;
+    }
+
+    .aside-column {
+        flex-basis: 100%;
+        order: 1;
+    }
+
+}
+
